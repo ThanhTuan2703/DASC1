@@ -1,0 +1,14 @@
+.search-results {
+    padding-top: 20px;
+}
+
+.search-results h3 {
+    color: red;
+    font-size: 100px;
+    font-style: bold;
+}
+
+.button_next {
+    text-align: center;
+    padding-top: 50px;
+}

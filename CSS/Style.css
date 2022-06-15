@@ -1,0 +1,289 @@
+body {
+    background: white;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: "Times New Roman";
+}
+
+.nav_bar {
+    background: rgb(0, 200, 197);
+    display: flex;
+    height: 4em;
+    line-height: 4em;
+    justify-content: space-between;
+}
+
+.dropdown-menu.show {
+    display: block;
+    background-color: rgb(0, 200, 197);
+    border: 0px;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 2em;
+    padding-left: 4em;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-right: 2em;
+    font-size: 17px;
+    z-index: 2;
+}
+
+.menu_link {
+    padding-right: 2.5em;
+}
+
+.menu li a:hover {
+    color: rgb(147, 55, 157);
+    transition: color 0.2s ease-out;
+}
+
+.menu li a {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(240, 7, 7, 0.921);
+}
+
+.menu_down {
+    background: rgb(67, 206, 206);
+    width: 150px;
+    height: 10em;
+    line-height: 3em;
+    margin: 0px auto;
+    position: absolute;
+    top: 68px;
+    right: 72px;
+    display: none;
+}
+
+.menu_down li {
+    text-align: center;
+    padding: 0px;
+}
+
+.menu_down li a:hover {
+    color: rgb(35, 23, 199);
+}
+
+.menu .menu_link:hover .menu_down {
+    display: block;
+}
+
+.main-banner {
+    display: flex;
+}
+
+.position {
+    margin-top: 10px;
+}
+
+.container-position {
+    margin-left: 12px;
+}
+
+.container-position li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search {
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.products div a {
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(245, 12, 12);
+}
+
+.product-sp {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background: #312783;
+    padding: 0px 10px;
+}
+
+.product-1 {
+    padding-right: 10px;
+    /* border: 1px solid #cac9d9; */
+}
+
+.product-1 a {
+    text-decoration: none;
+}
+
+.img {
+    width: 200px;
+    height: 350px;
+}
+
+h2 {
+    color: #fff;
+    padding: 10px
+}
+
+.product_p1 {
+    display: flex;
+}
+
+.footer h3 {
+    color: black;
+}
+
+.footer p {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    width: 1024px;
+    margin-top: 50px;
+}
+
+.thanhtoan {
+    padding-right: 100px;
+}
+
+.hotro {
+    padding-right: 100px;
+}
+
+.footer-bottom {
+    display: flex;
+    padding: 10px 0px;
+    background-color: rgb(50, 116, 237);
+}
+
+
+/* Gio hang */
+
+.giohang {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    /* float: right; */
+    right: 4%;
+    top: -4%;
+    cursor: pointer;
+}
+
+.gio-hang {
+    position: absolute;
+    background-color: #ccc;
+    right: 100%;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.gio-hang-list {
+    display: flex;
+    width: 500px;
+}
+
+.gio-hang-anh,
+.gio-hang-noi-dung {
+    width: 20%;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.anh-chuan {
+    background-image: url(/Đồ\ án\ cơ\ sở\ 1/icon/ao1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+}
+
+.anh-chuan1 {
+    background-image: url(/Đồ\ án\ cơ\ sở\ 1/icon/giay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+}
+
+.anh-chuan2 {
+    background-image: url(/Đồ\ án\ cơ\ sở\ 1/icon/aoclb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+}
+
+.gio-hang-noi-dung {
+    width: 80%;
+}
+
+.gio-hang-1 {
+    height: 40px;
+    display: block;
+    font-size: 20px;
+    color: rgb(12, 4, 252);
+}
+
+.gio-hang-2 {
+    display: block;
+    color: rgb(12, 4, 252);
+}
+
+.tongtien {}
+
+.tongtien h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toitrangthanhtoan {
+    text-align: center;
+}
+
+.toitrangthanhtoan button {
+    background-color: red;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-weight: bold;
+}
